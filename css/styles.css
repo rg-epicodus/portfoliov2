@@ -1,0 +1,33 @@
+/*NavBar Formatting*/
+
+.navbar ul li {
+  font-size: 16px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*Well Overlay and Well text*/
+
+.aboutText {
+  /* background: rgba(255,255,255,.5); */
+  /* font-size: 24px; */
+  /*font-weight: bolder;*/
+  /* text-decoration: none; */
+  /* border: 2px solid black; */
+}
+
+
+/*Logo justification*/
+
+img {
+  float: left;
+}
