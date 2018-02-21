@@ -1,33 +1,44 @@
-/*NavBar Formatting*/
+/*side navbar */
 
-.navbar ul li {
-  font-size: 17px;
+.icon-bar {
+    width: 60px;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
 }
-
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  display: block;
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    transition: all 0.3s ease;
+    color: #00E1F8;
+    font-size: 24px;
 }
-
-.navbar ul li a:hover {
-  background-color: white;
-  color: black;
+.icon-bar a:hover {
+    background-color: black;
 }
-
-/*Well Overlay and Well text*/
-
-.aboutText {
-  /* background: rgba(255,255,255,.5); */
-  /* font-size: 24px; */
-  /*font-weight: bolder;*/
-  /* text-decoration: none; */
-  /* border: 2px solid black; */
+.active {
+    background-color: black !important;
 }
-
 
 /*Logo justification*/
 
 img {
   float: left;
+}
+
+
+/* main content */
+
+body {
+	transition: background-color 2s cubic-bezier(1, 1, 1, 1);
+	transition-delay: 0s;
+}
+
+.main {
+  margin-left: 60px;
+  color: white;
+  text-align: left;
+  /* background-color: #2D2D2D; */
+  height: 100vh;
 }
